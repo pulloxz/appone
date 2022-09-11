@@ -138,7 +138,8 @@ padding: const EdgeInsets.only(left:10 ,top:15),
                   height: 60,
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(8),
-                      border: Border.all(color: Colors.grey)
+                      border: Border.all(color: Colors.grey) ,
+
                   ),                ) ,
                 Container(
 
