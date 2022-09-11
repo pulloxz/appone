@@ -15,21 +15,18 @@ class MyApp extends StatelessWidget {
               padding: EdgeInsets.fromLTRB(0,0,0,0),
               child: Container(
                 padding: EdgeInsets.all(0.0),
-                width: 80,
-                height: 50,
+                width: 100,
+                height: 20,
               ), //Container
             ),
               Container(
               width: 100,
               height: 100,
                 decoration: BoxDecoration(
-                  image: DecorationImage(
-                    image: const AssetImage('img/Careem_logo.png') ,
-                      fit:BoxFit.cover
-                  ) ,
 
                 ),
-            ) ,
+
+              ) ,
               Padding(
                 padding: EdgeInsets.fromLTRB(0,0,0,0),
                 child: Container(
@@ -42,15 +39,15 @@ Container(
   alignment: Alignment.centerLeft, padding: const EdgeInsets.only(left: 40,bottom: 10) ,
     child: Text(
       ('Log in to your account') ,
-      style: TextStyle(fontSize: 20 , color: Colors.grey ),
+      style: TextStyle(fontSize: 20 , color: Colors.grey , fontWeight: FontWeight.bold ),
     ),
   ) ,
               Container(
                 padding: const EdgeInsets.only(left:10 ,top:15),
                   decoration: BoxDecoration(
                       color: Colors.white ,
-                      borderRadius: BorderRadius.circular(10)
-                      , border: Border.all(color: Colors.grey)
+                      borderRadius: BorderRadius.circular(8)
+                      , border: Border.all(color: Colors.grey )
                   ),
                   width: 370,
                   height: 60,
@@ -69,7 +66,7 @@ Padding(padding: const EdgeInsets.only(top:10) ) ,
 padding: const EdgeInsets.only(left:10 ,top:15),
                 decoration: BoxDecoration(
                     color: Colors.white ,
-                    borderRadius: BorderRadius.circular(10)
+                    borderRadius: BorderRadius.circular(8)
                     , border: Border.all(color: Colors.grey)
                 ),
                 width: 370,
@@ -99,7 +96,7 @@ padding: const EdgeInsets.only(left:10 ,top:15),
 
             decoration: BoxDecoration(
                 color: Colors.blueAccent,
-                borderRadius: BorderRadius.circular(10)
+                borderRadius: BorderRadius.circular(8)
 
             ),
             width: 100,
@@ -109,7 +106,8 @@ padding: const EdgeInsets.only(left:10 ,top:15),
               ('Log in'),
               textAlign: TextAlign.center,
               style: TextStyle(fontSize: 20
-                ,color: Colors.white
+                ,color: Colors.white ,
+                fontWeight: FontWeight.bold
                 ,),
             )
             ,
@@ -128,6 +126,7 @@ padding: const EdgeInsets.only(left:10 ,top:15),
                     style: TextStyle(color: Colors.grey , fontSize: 20),
                   )
               ),
+              Padding(padding: const EdgeInsets.only(bottom: 10)),
 
              Row(
                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -138,7 +137,7 @@ padding: const EdgeInsets.only(left:10 ,top:15),
                   width: 90 ,
                   height: 60,
                   decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
+                      borderRadius: BorderRadius.circular(8),
                       border: Border.all(color: Colors.grey)
                   ),                ) ,
                 Container(
@@ -146,7 +145,7 @@ padding: const EdgeInsets.only(left:10 ,top:15),
                   width: 90 ,
                   height: 60,
                   decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(10),
+                      borderRadius: BorderRadius.circular(8),
                       border: Border.all(color: Colors.grey)
                   ),                ) ,
                 Container(
@@ -154,7 +153,7 @@ padding: const EdgeInsets.only(left:10 ,top:15),
                   width: 90 ,
                   height: 60,
                   decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10),
+                    borderRadius: BorderRadius.circular(8),
                     border: Border.all(color: Colors.grey)
                   ),
                 ) ,
